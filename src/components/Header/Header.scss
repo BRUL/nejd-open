@@ -1,0 +1,56 @@
+header {
+  grid-area: 2 / 2 / 3 / -2;
+  display: inline-grid;
+  grid-template-columns: min-content auto min-content;
+  align-items: end;
+  padding-bottom: 1rem;
+
+  .logo {
+    svg {
+      vertical-align: baseline;
+      height: 1ex;
+      width: auto;
+    }
+  }
+
+  .menu {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+
+    justify-self: end;
+    display: inline-flex;
+    flex-wrap: nowrap;
+
+    li {
+      display: inline;
+      margin-left: 1rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        text-decoration: none;
+
+        &.active, &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+header {
+  .logo {
+    svg {
+      height: 3rem;
+    }
+  }
+}
+
+}
