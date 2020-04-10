@@ -20,6 +20,24 @@ class Projects extends Component {
           </Link>
           <figcaption>Folie à Deux</figcaption>
         </figure>
+        <figure className="ProjectThumb">
+          <Link to="/project/kolom">
+            <ResponsiveImage projectName="kolom" imageName="thumbnail" alt="thumbnail" title="" />
+          </Link>
+          <figcaption>Kolom</figcaption>
+        </figure>
+        <figure className="ProjectThumb">
+          <Link to="/project/still">
+            <ResponsiveImage projectName="still" imageName="thumbnail" alt="thumbnail" title="" />
+          </Link>
+          <figcaption>Still</figcaption>
+        </figure>
+        <figure className="ProjectThumb">
+          <Link to="/project/untitled">
+            <ResponsiveImage projectName="untitled" imageName="thumbnail" alt="thumbnail" title="" />
+          </Link>
+          <figcaption>Untitled</figcaption>
+        </figure>
       </div>
     );
   }
