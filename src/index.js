@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 import { render } from 'react-snapshot';
+import registerServiceWorker from './registerServiceWorker';
 
 import Header from './components/Header/Header';
 import Projects from './containers/Projects/Projects';
@@ -41,3 +42,4 @@ render(
   </div>,
   document.getElementById('root')
 );
+registerServiceWorker();
