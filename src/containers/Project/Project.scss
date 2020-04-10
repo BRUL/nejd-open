@@ -21,6 +21,13 @@ $white-space: 1rem;
 
   section {
     width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-self: flex-start;
+
+    img {
+      width: 100%;
+    }
   }
 
   img {

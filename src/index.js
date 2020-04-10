@@ -11,6 +11,7 @@ import Projects from './containers/Projects/Projects';
 import Gloriette from './containers/Project/Gloriette';
 import FolieADeux from './containers/Project/FolieADeux';
 import Info from './containers/Info/Info';
+import Contact from './containers/Contact/Contact';
 
 import './index.scss';
 
@@ -26,6 +27,7 @@ render(
               <Route exact path='/project/gloriette' component={Gloriette} />
               <Route exact path='/project/folie-a-deux' component={FolieADeux} />
               <Route exact path='/info' component={Info} />
+              <Route exact path='/contact' component={Contact} />
             </Switch>
         )}
       />

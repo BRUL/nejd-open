@@ -17,15 +17,16 @@ class FolieADeux extends Component {
         </section>
 
         <ResponsiveImage projectName={projectName} imageName="green-white-parquet-doors-ceiling" alt="" title="" className="" />
+        <ResponsiveImage projectName={projectName} imageName="detail-glass-frame-stairs" alt="" title="" className="" />
 
         <section>
           <p>Enkel waar het oorspronkelijke interieur voorzieningen miste werden elementen toegevoegd, die dan wel afstand houden van hun omgeving zodat ze een open interactie aangaan met de gebruiker. Het zijn vrijblijvende, haast abstracte volumes die hun gebruik subtiel suggereren. In geen geval zouden ze het oorspronkelijke interieur willen imiteren of beïnvloeden.</p>
           <p>We hopen dat door de manier waarop we weggenomen en toegevoegd hebben, er een omgeving is ontstaan die de uniciteit in ere houdt en uitnodigt om ze ongedwongen te gaan ontdekken.</p>
         </section>
 
-        <ResponsiveImage projectName={projectName} imageName="detail-glass-frame-stairs" alt="" title="" className="" sizes="(max-width: 768px) calc(100vw-2rem)" />
         <ResponsiveImage projectName={projectName} imageName="corner-marble-gray-mirror-frame-mantle" alt="" title="" className="" />
         <ResponsiveImage projectName={projectName} imageName="green-door-ceiling-mirror-curtains" alt="" title="" className="stretch" />
+
         <ResponsiveImage projectName={projectName} imageName="detail-door-jamb-minimalistic-green-gray-moulures" alt="" title="" className="" />
         <ResponsiveImage projectName={projectName} imageName="couches-bars-flowers" alt="" title="" className="" />
         <ResponsiveImage projectName={projectName} imageName="tables-newspaper-coffee-glass" alt="" title="" className="stretch" />

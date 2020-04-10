@@ -1,0 +1,37 @@
+.Contact {
+  grid-area: 3 / 2 / -2 / -2;
+  width: 100%;
+  height: calc(100vh - 1rem - 1rem - 1rem - 1em);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  address, p {
+    max-width: 30rem;
+    margin: 0 auto 1rem;
+  }
+
+  a {
+    text-decoration: none;
+
+    &.active, &:hover, &.important {
+      text-decoration: underline;
+    }
+  }
+
+  .social {
+    :not(:first-child) {
+      margin-left: 1rem;
+    }
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+.Contact {
+  height: calc(100vh - 4rem - 3rem - 1rem - 4em);
+}
+}

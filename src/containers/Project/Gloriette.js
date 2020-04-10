@@ -10,7 +10,7 @@ class Gloriette extends Component {
         <ResponsiveImage projectName="gloriette" imageName="gloriette1" alt="" title="" className="banner" />
 
         <section>
-          <h1>Gloriette</h1>
+          <h1>Gloriëtte</h1>
           <p>Uitgestrekte velden over het glooiende heuvelland brachten een scherpe wind uit het noordwesten.<br />
           Een poreuze structuur vangt ze op en wendt ze af: enkel de hoogste takken getuigen nog van de harde wind.</p>
           <p>Herfst, winter, lente, zomer: de akkers dragen een kleurrijke garderobe.<br />
