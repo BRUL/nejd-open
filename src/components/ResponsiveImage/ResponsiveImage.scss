@@ -1,0 +1,5 @@
+.ResponsiveImage {
+  &:not(.loaded) {
+    filter: blur(25px);
+  }
+}

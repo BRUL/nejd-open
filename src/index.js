@@ -7,9 +7,9 @@ import {
 import { render } from 'react-snapshot';
 
 import Header from './components/Header/Header';
-import Projects from './components/Projects/Projects';
-import Gloriette from './components/Project/Gloriette';
-import Info from './components/Info/Info';
+import Projects from './containers/Projects/Projects';
+import Gloriette from './containers/Project/Gloriette';
+import Info from './containers/Info/Info';
 
 import './index.scss';
 
