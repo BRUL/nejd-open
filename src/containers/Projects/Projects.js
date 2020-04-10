@@ -10,13 +10,13 @@ class Projects extends Component {
       <div className="Projects">
         <figure className="ProjectThumb">
           <Link to="/project/gloriette">
-            <ResponsiveImage projectName="gloriette" imageName="gloriette0" alt="" title="" />
+            <ResponsiveImage projectName="gloriette" imageName="gloriette0" alt="thumbnail" title="" />
           </Link>
           <figcaption>Gloriëtte</figcaption>
         </figure>
         <figure className="ProjectThumb">
           <Link to="/project/folie-a-deux">
-            <ResponsiveImage projectName="folieadeux" imageName="folieadeux0" alt="" title="" />
+            <ResponsiveImage projectName="folieadeux" imageName="thumbnail" alt="thumbnail" title="" />
           </Link>
           <figcaption>Folie à Deux</figcaption>
         </figure>
