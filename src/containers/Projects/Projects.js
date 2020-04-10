@@ -14,6 +14,12 @@ class Projects extends Component {
           </Link>
           <figcaption>Gloriëtte</figcaption>
         </figure>
+        <figure className="ProjectThumb">
+          <Link to="/project/folie-a-deux">
+            <ResponsiveImage projectName="folieadeux" imageName="folieadeux0" alt="" title="" />
+          </Link>
+          <figcaption>Folie à Deux</figcaption>
+        </figure>
       </div>
     );
   }
