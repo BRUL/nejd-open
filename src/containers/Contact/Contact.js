@@ -25,11 +25,11 @@ class Contact extends Component {
         </address>
         <section>
           <p>
-          huisstijl: <a href="http://dogma.eu" target="_blank" rel="noopener noreferrer" title="Dogma">Dogma</a>
+          Huisstijl: <a href="http://dogma.eu" target="_blank" rel="noopener noreferrer" title="Dogma">Dogma</a>
           <br />
-          webdesign: <a href="http://newfront.eu" target="_blank" rel="noopener noreferrer" title="Niels Dequeker">Niels Dequeker</a>
+          Webdesign: <a href="http://newfront.eu" target="_blank" rel="noopener noreferrer" title="Niels Dequeker">Niels Dequeker</a>
           <br />
-          fotografie: <a href="http://koenvandamme.be" target="_blank" rel="noopener noreferrer" title="Koen Van Damme">Koen van Damme</a>
+          Fotografie: <a href="http://koenvandamme.be" target="_blank" rel="noopener noreferrer" title="Koen Van Damme">Koen Van Damme</a>
           </p>
         </section>
 
