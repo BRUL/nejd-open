@@ -12,6 +12,7 @@ class Untitled extends Component {
 
         <section>
           <h1>Untitled</h1>
+          <address>Ottogracht 18, 9000 Gent</address>
           <h2>Perspectief en licht</h2>
           <p>Een reeks rails waarop vrij spots kunnen geplaatst worden, die denser wordt naar de ingang toe. Dit laat de uitbater toe om zowel gericht als gezoneerde verlichting te gebruiken.</p>
           <p>Het patroon heeft een omgekeerd diepte-effect: de lange ruimte lijkt—bij het naar binnen komen—korter, uitnodigender. Tegelijkertijd worden de rails op één hoogte gemonteerd, waardoor de verschillende plafondniveaus verdwijnen.</p>
