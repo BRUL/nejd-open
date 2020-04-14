@@ -11,14 +11,19 @@ class Untitled extends Component {
         <ResponsiveImage projectName={projectName} imageName="patio-plant-centered" alt="" title="" className="banner" />
 
         <section>
-          <h1>Untitled</h1>
+          <h1>Untitled (+sleutelwoorden)</h1>
           <address>Ottogracht 18, 9000 Gent</address>
-          <h2>Perspectief en licht</h2>
-          <p>Een reeks rails waarop vrij spots kunnen geplaatst worden, die denser wordt naar de ingang toe. Dit laat de uitbater toe om zowel gericht als gezoneerde verlichting te gebruiken.</p>
-          <p>Het patroon heeft een omgekeerd diepte-effect: de lange ruimte lijkt—bij het naar binnen komen—korter, uitnodigender. Tegelijkertijd worden de rails op één hoogte gemonteerd, waardoor de verschillende plafondniveaus verdwijnen.</p>
+          <p>Informatie in verband met het project.</p>
         </section>
 
         <ResponsiveImage projectName={projectName} imageName="minimal-walls-slant" alt="" title="" className="" />
+
+        <section>
+          <h2>Perspectief en licht</h2>
+          <p>Een reeks rails waarop vrij spots kunnen geplaatst worden, die denser wordt naar de ingang toe. Dit laat de uitbater toe om zowel gerichte als gezoneerde verlichting te gebruiken.</p>
+          <p>Het patroon heeft een omgekeerd diepte-effect: de lange ruimte lijkt—bij het naar binnen komen—korter, uitnodigender. Tegelijkertijd worden de rails op één hoogte gemonteerd, waardoor de verschillende plafondniveaus verdwijnen.</p>
+        </section>
+
         <ResponsiveImage projectName={projectName} imageName="column-walls-lighting" alt="" title="" className="" />
 
         <section>
