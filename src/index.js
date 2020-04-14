@@ -20,7 +20,7 @@ import Contact from './containers/Contact/Contact';
 import './index.scss';
 
 render(
-  <div className="App">
+    <div className="App">
     <Router>
       <Header />
       <Route
@@ -39,7 +39,7 @@ render(
         )}
       />
     </Router>
-  </div>,
+    </div>,
   document.getElementById('root')
 );
 registerServiceWorker();

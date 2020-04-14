@@ -1,11 +1,25 @@
 import React, { Component } from 'react';
+import MetaTags from 'react-meta-tags';
+
 import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage';
+import PageImage from '../../components/PageImage/PageImage';
+
 import './Project.scss';
+
+const pageTitle = 'Gloriette: een buitenruimte';
+const pageDescription = 'Een verdiepingshoge structuur biedt steun aan het wolkendak, omlijst muren van tuin, met vensters tussen wilgenbomen.';
 
 class Gloriette extends Component {
   render() {
     return (
       <div className="Project Gloriette">
+
+        <MetaTags>
+          <title>{pageTitle}</title>
+          <meta name="title" content={pageTitle} />
+          <meta name="description" content={pageDescription} />
+          <PageImage projectName="gloriette" imageName="gloriette1" />
+        </MetaTags>
 
         <ResponsiveImage projectName="gloriette" imageName="gloriette1" alt="" title="" className="banner" />
 
