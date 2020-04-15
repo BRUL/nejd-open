@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import {
   Route,
   Switch,
@@ -7,22 +7,24 @@ import {
 import { render } from 'react-snapshot';
 import registerServiceWorker from './registerServiceWorker';
 
-import Header from './components/Header/Header';
-import Projects from './containers/Projects/Projects';
-import Gloriette from './containers/Project/Gloriette';
-import FolieADeux from './containers/Project/FolieADeux';
-import Kolom from './containers/Project/Kolom';
-import Still from './containers/Project/Still';
-import Untitled from './containers/Project/Untitled';
-import Info from './containers/Info/Info';
-import Contact from './containers/Contact/Contact';
-
 import './index.scss';
+
+import Header from './components/Header/Header';
+const Projects = lazy(() => import('./containers/Projects/Projects'));
+const Gloriette = lazy(() => import('./containers/Project/Gloriette'));
+const FolieADeux = lazy(() => import('./containers/Project/FolieADeux'));
+const Kolom = lazy(() => import('./containers/Project/Kolom'));
+const Still = lazy(() => import('./containers/Project/Still'));
+const Untitled = lazy(() => import('./containers/Project/Untitled'));
+const Info = lazy(() => import('./containers/Info/Info'));
+const Contact = lazy(() => import('./containers/Contact/Contact'));
+
 
 render(
     <div className="App">
     <Router>
       <Header />
+      <Suspense fallback={<div className="Loading">Laden...</div>}>
       <Route
         render={({ location }) => (
             <Switch location={location}>
@@ -38,6 +40,7 @@ render(
             </Switch>
         )}
       />
+    </Suspense>
     </Router>
     </div>,
   document.getElementById('root')

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MetaTags from 'react-meta-tags';
 
 import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage';
-import PageImage from '../../components/PageImage/PageImage';
+import MetaImage from '../../components/MetaImage/MetaImage';
 
 import './Project.scss';
 
@@ -18,7 +18,7 @@ class Gloriette extends Component {
           <title>{pageTitle}</title>
           <meta name="title" content={pageTitle} />
           <meta name="description" content={pageDescription} />
-          <PageImage projectName="gloriette" imageName="gloriette1" />
+          <MetaImage projectName="gloriette" imageName="gloriette1" />
         </MetaTags>
 
         <ResponsiveImage projectName="gloriette" imageName="gloriette1" alt="" title="" className="banner" />

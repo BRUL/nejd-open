@@ -46,10 +46,6 @@
       transition: filter .5s ease;
       max-height: calc(100vh - 4rem - 3rem - 1rem - 4em);
 
-      &:not(.loaded) {
-        filter: blur(25px);
-      }
-
       &:hover {
         filter: opacity(0.75);
       }

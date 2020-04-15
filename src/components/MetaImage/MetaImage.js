@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PageImage extends Component {
+class MetaImage extends Component {
   render() {
     const { projectName, imageName } = this.props;
 
@@ -10,4 +10,4 @@ class PageImage extends Component {
   }
 }
 
-export default PageImage;
+export default MetaImage;
