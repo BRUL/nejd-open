@@ -4,6 +4,7 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
+import Analytics from 'react-router-ga';
 import { render } from 'react-snapshot';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -23,6 +24,7 @@ const Contact = lazy(() => import('./containers/Contact/Contact'));
 render(
     <div className="App">
     <Router>
+      <Analytics id="UA-101955661-1" debug>
       <Header />
       <Suspense fallback={<div className="Loading">Laden...</div>}>
       <Route
@@ -41,6 +43,7 @@ render(
         )}
       />
     </Suspense>
+  </Analytics>
     </Router>
     </div>,
   document.getElementById('root')

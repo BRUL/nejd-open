@@ -18,10 +18,20 @@ class Gloriette extends Component {
           <title>{pageTitle}</title>
           <meta name="title" content={pageTitle} />
           <meta name="description" content={pageDescription} />
-          <MetaImage projectName="gloriette" imageName="gloriette1" />
+          <MetaImage projectName="gloriette" imageName="frontal-arches-wood-fence" />
         </MetaTags>
 
-        <ResponsiveImage projectName="gloriette" imageName="gloriette1" alt="" title="" className="banner" />
+        <ResponsiveImage projectName="gloriette" imageName="frontal-arches-wood-fence" alt="frontaal beeld van betonnen gewelf met houten terrasafsluiting" title="" className="banner" />
+
+        <section>
+          <p><em>Gloriëtte</em> is een buitenruimte in het landelijke Poperinge, West-Vlaanderen.</p>
+          <p>Het is een poëtische plaats die zicht biedt op het landschap en bescherming tegen de wind.</p>
+        </section>
+
+        <ResponsiveImage projectName="gloriette" imageName="side-door-open-custom-handle" alt="" title="" className="" />
+
+        <ResponsiveImage projectName="gloriette" imageName="view-landscape-framed" alt="" title="" className="" />
+
 
         <section>
           <h1>Gloriëtte</h1>
@@ -35,16 +45,14 @@ class Gloriette extends Component {
           Water weerkaatst nu een heldere hemel. Het is een oninneembare kalmte die de dorre dromen klaart.<br />
           Een ruimte los en overgaand, tussen weidse wereld en veilig binnen.</p>
           <p>Een verdiepingshoge structuur biedt steun aan het wolkendak, omlijst muren van tuin, met vensters tussen wilgenbomen.<br />
-          Een <i>gloriëtte</i>: om geborgen buiten te vertoeven, een anker voor het huis, een uitnodiging om tussen natuur te tafelen.</p>
+          Een <em>gloriëtte</em>: om geborgen buiten te vertoeven, een anker voor het huis, een uitnodiging om tussen natuur te tafelen.</p>
         </section>
 
-        <ResponsiveImage projectName="gloriette" imageName="gloriette2" alt="" title="" className="" />
-        <ResponsiveImage projectName="gloriette" imageName="gloriette3" alt="" title="" className="" />
-        <ResponsiveImage projectName="gloriette" imageName="gloriette4" alt="" title="" className="" />
-        <ResponsiveImage projectName="gloriette" imageName="gloriette6" alt="" title="" className="stretch" />
-        <ResponsiveImage projectName="gloriette" imageName="gloriette5" alt="" title="" className="" />
-        <ResponsiveImage projectName="gloriette" imageName="gloriette7" alt="" title="" className="" />
-        <ResponsiveImage projectName="gloriette" imageName="gloriette8" alt="" title="" className="stretch" />
+        <ResponsiveImage projectName="gloriette" imageName="detail-sun-glass-tiles" alt="" title="" className="" />
+        <ResponsiveImage projectName="gloriette" imageName="garden-view-pond" alt="" title="" className="stretch" />
+        <ResponsiveImage projectName="gloriette" imageName="sunny-table-plants" alt="" title="" className="" />
+        <ResponsiveImage projectName="gloriette" imageName="detail-reflection-pond-fence" alt="" title="" className="" />
+        <ResponsiveImage projectName="gloriette" imageName="sunrise-through-glass-and-wood-fence" alt="" title="" className="stretch" />
 
       </div>
     );
