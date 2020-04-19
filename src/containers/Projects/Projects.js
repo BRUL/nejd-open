@@ -18,25 +18,25 @@ class Projects extends Component {
 
         <figure className="ProjectThumb">
           <Link to="/project/untitled">
-            <ResponsiveImage projectName="untitled" imageName="thumbnail" alt="thumbnail" title="" />
+            <ResponsiveImage projectName="untitled" imageName="thumbnail" alt="thumbnail project Untitled" title="" />
           </Link>
           <figcaption>Untitled</figcaption>
         </figure>
         <figure className="ProjectThumb">
           <Link to="/project/kolom">
-            <ResponsiveImage projectName="kolom" imageName="thumbnail" alt="thumbnail" title="" />
+            <ResponsiveImage projectName="kolom" imageName="thumbnail" alt="thumbnail project Kolom" title="" />
           </Link>
           <figcaption>Kolom</figcaption>
         </figure>
         <figure className="ProjectThumb">
           <Link to="/project/folie-a-deux">
-            <ResponsiveImage projectName="folieadeux" imageName="thumbnail" alt="thumbnail" title="" />
+            <ResponsiveImage projectName="folieadeux" imageName="thumbnail" alt="thumbnail project Folie à Deux" title="" />
           </Link>
           <figcaption>Folie à Deux</figcaption>
         </figure>
         <figure className="ProjectThumb">
           <Link to="/project/still">
-            <ResponsiveImage projectName="still" imageName="thumbnail" alt="thumbnail" title="" />
+            <ResponsiveImage projectName="still" imageName="thumbnail" alt="thumbnail project Still" title="" />
           </Link>
           <figcaption>Still</figcaption>
         </figure>

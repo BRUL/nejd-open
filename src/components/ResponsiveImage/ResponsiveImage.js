@@ -21,7 +21,7 @@ class ResponsiveImage extends Component {
       loaded: true
     });
   }
-  
+
   render () {
     const { projectName, imageName, alt, title, sizes, className } = this.props;
     const { loaded } = this.state;
@@ -48,7 +48,7 @@ class ResponsiveImage extends Component {
         placeholder={({ imageProps, ref }) => (
           <img ref={ref} src={`${base64Thumbs[`${projectName}/${imageName}`]}`} alt={imageProps.alt} className={classNames} />
         )}
-        actual={({ imageProps }) => <img {...imageProps} />}
+        actual={({ imageProps }) => <img {...imageProps} alt={alt} title={title} />}
       />
     );
   }
