@@ -26,6 +26,7 @@ class Gloriette extends Component {
         <section>
           <p><em>Gloriëtte</em> is een buitenruimte in het landelijke Poperinge, West-Vlaanderen.</p>
           <p>Het is een poëtische plaats die zicht biedt op het landschap en bescherming tegen de wind.</p>
+          <p>Van betonnen structuur tot en met deurkruk, van conceptvorming tot uitvoeringsfase.</p>
         </section>
 
         <ResponsiveImage projectName="gloriette" imageName="side-door-open-custom-handle" alt="" title="" className="" />
