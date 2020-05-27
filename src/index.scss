@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 @mixin gridtemplate($white-space) {
   grid-template-rows: $white-space min-content minmax(min-content,auto) $white-space;
   grid-template-columns: $white-space auto $white-space;

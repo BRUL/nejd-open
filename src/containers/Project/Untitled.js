@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage';
 import './Project.scss';
+
 const projectName = "untitled";
 
 class Untitled extends Component {
