@@ -20,9 +20,7 @@ class Project extends Component {
 
     return project ? (
       <div className="Project">
-
         <ProjectCarousel project={this.state.project} />
-
       </div>
     ) : null;
   }
