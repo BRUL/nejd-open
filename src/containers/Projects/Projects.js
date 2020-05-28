@@ -17,10 +17,10 @@ class Projects extends Component {
         </MetaTags>
 
         <figure className="ProjectThumb">
-          <Link to="/project/untitled">
-            <ResponsiveImage projectName="untitled" imageName="thumbnail" alt="thumbnail project Untitled" title="" />
+          <Link to="/project/wittekamer">
+            <ResponsiveImage projectName="wittekamer" imageName="thumbnail" alt="thumbnail project" title="" />
           </Link>
-          <figcaption>Untitled</figcaption>
+          <figcaption>Witte Kamer</figcaption>
         </figure>
         <figure className="ProjectThumb">
           <Link to="/project/kolom">
