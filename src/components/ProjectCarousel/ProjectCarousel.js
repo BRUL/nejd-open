@@ -70,7 +70,10 @@ class ProjectCarousel extends Component {
                                   imageName={picture.src}
                                   alt={picture.alt}
                                   title={picture.title}
-            /> : null
+            />
+            : (picture.description ?
+              <section dangerouslySetInnerHTML={{ __html:picture.description}}></section>
+              : null )
           }
         </CarouselItem>
       );
