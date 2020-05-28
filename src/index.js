@@ -5,7 +5,7 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 import Analytics from 'react-router-ga';
-import { render } from 'react-snapshot';
+import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 import './index.scss';
@@ -17,7 +17,7 @@ const Info = lazy(() => import('./containers/Info/Info'));
 const Contact = lazy(() => import('./containers/Contact/Contact'));
 
 
-render(
+ReactDOM.render(
     <div className="App">
     <Router>
       <Analytics id="UA-101955661-1" debug>
