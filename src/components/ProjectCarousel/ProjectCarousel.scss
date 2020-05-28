@@ -1,3 +1,5 @@
+$white-space: 1rem;
+
 .ProjectCarousel {
   width: 100%;
 
@@ -12,6 +14,7 @@
 
   img {
     width: 100%;
+    margin: 0 $white-space;
   }
 
   .carousel-control-next-icon {
@@ -27,10 +30,16 @@
 
 @media screen and (min-width: 768px) {
 
+  $white-space: 4rem;
+
   .ProjectCarousel {
 
     section {
-      margin: 0 auto 1rem;
+      margin: 0 auto;
+    }
+
+    img {
+      margin: 0 $white-space;
     }
 
   }
