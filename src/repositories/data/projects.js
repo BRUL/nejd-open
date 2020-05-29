@@ -3,14 +3,13 @@ export default {
     name: 'wittekamer',
     description: 'Witte Kamer, 2019.',
     pictures: [
-      { src: 'patio-plant-centered', alt: '', title: '' },
-      { src: 'minimal-walls-slant', alt: '', title: '' },
-      { src: 'column-walls-lighting', alt: '', title: '' },
-      { src: 'detail-lighting-wall-paint', alt: '', title: '' },
-      { src: 'welcome-entrance-lighting-overview', alt: '', title: '' },
-      { src: 'minimal-radiator-wall-ceiling-light', alt: '', title: '' },
-      { src: 'window-frames-grayscale', alt: '', title: '' },
-      { src: 'thumbnail', alt: '', title: '' }
+      { src: '1-patio-boom-overzicht', alt: '', title: '' },
+      { src: '2-patio-ramen-gordijn', alt: '', title: '' },
+      { src: '3-muur-dakraam-wit', alt: '', title: '' },
+      { src: '4-gang-muur-wit', alt: '', title: '' },
+      { src: '5-vloer-tegels-patroon', alt: '', title: '' },
+      { src: '6-inkom-voorzetwand-verlichting', alt: '', title: '' },
+      { src: '7-inkom-paal-verlichting', alt: '', title: '' }
     ]
   },
   'kolom': {
