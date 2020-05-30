@@ -1,23 +1,23 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense } from 'react';
 import {
   Route,
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
 import Analytics from 'react-router-ga';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 import registerServiceWorker from './registerServiceWorker';
 
 import './index.scss';
 
 import Header from './components/Header/Header';
-const Projects = lazy(() => import('./containers/Projects/Projects'));
-const Project = lazy(() => import('./containers/Project/Project'));
-const Info = lazy(() => import('./containers/Info/Info'));
-const Contact = lazy(() => import('./containers/Contact/Contact'));
+import Projects from './containers/Projects/Projects';
+import Project from './containers/Project/Project';
+import Info from './containers/Info/Info';
+import Contact from './containers/Contact/Contact';
 
 
-ReactDOM.render(
+render(
     <div className="App">
     <Router>
       <Analytics id="UA-101955661-1" debug>
