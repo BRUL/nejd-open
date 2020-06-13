@@ -1,1 +1,0 @@
-{"version":3,"sources":["ResponsiveImage.scss"],"names":[],"mappings":"AAAA,8BAEI,sCAAgC,CAAhC,8BAAgC,CAChC,qBAAsB","file":"0.d159484d.chunk.css","sourcesContent":[".ResponsiveImage {\n  &:not(.loaded) {\n    filter: blur(5px) grayscale(0.5);\n    background-color: #fff;\n  }\n}\n"]}
