@@ -13,7 +13,7 @@ header {
     }
   }
 
-  .menu {
+  .sidebar {
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
@@ -24,7 +24,7 @@ header {
     display: inline-flex;
     flex-wrap: nowrap;
 
-    li {
+    li, &>p {
       display: inline;
       margin-left: 1rem;
 

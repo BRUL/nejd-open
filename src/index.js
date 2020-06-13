@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import {
   Route,
   Switch,
@@ -21,21 +21,20 @@ render(
     <div className="App">
     <Router>
       <Analytics id="UA-101955661-1" debug>
-      <Header />
-      <Suspense fallback={<div className="Loading">Laden...</div>}>
-      <Route
-        render={({ location }) => (
-            <Switch location={location}>
-              <Route exact path='/' component={Projects} />
-              <Route exact path='/projects' component={Projects} />
-              <Route exact path='/project/:id' component={Project} />
-              <Route exact path='/info' component={Info} />
-              <Route exact path='/contact' component={Contact} />
-            </Switch>
-        )}
-      />
-    </Suspense>
-  </Analytics>
+
+        <Header />
+
+        <Route render={({ location }) => (
+          <Switch>
+            <Route exact path='/' component={Projects} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/project/:id' component={Project} />
+            <Route exact path='/info' component={Info} />
+            <Route exact path='/contact' component={Contact} />
+          </Switch>
+        )} />
+
+      </Analytics>
     </Router>
     </div>,
   document.getElementById('root')
