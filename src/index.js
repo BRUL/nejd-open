@@ -20,17 +20,18 @@ import Contact from './containers/Contact/Contact';
 render(
     <div className="App">
     <Router>
-      <Analytics id="UA-101955661-1" debug>
+      <Analytics id="UA-101955661-1">
 
         <Header />
 
         <Route render={({ location }) => (
           <Switch>
             <Route exact path='/' component={Projects} />
-            <Route exact path='/projects' component={Projects} />
             <Route exact path='/project/:id' component={Project} />
+            <Route exact path='/projects' component={Projects} />
             <Route exact path='/info' component={Info} />
             <Route exact path='/contact' component={Contact} />
+            <Route path='*' component={Projects} />
           </Switch>
         )} />
 
